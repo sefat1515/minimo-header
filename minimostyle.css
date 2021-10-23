@@ -1,0 +1,83 @@
+/*------ COMMON CSS --------*/
+*{
+	margin: 0%;
+	padding: 0%;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+.cs{
+	/*border: 2px solid red;*/
+	padding: 2% 0;
+}
+.cw{
+	/*border: 2px solid cyan;*/
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(0, 0, 0);
+}
+
+
+/*------ COMMON CSS --------*/
+
+
+
+
+
+
+/*-- header start --*/
+
+
+.header .logo{
+	width: 8%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.header img{
+	width: 100%;
+}
+
+.header .menu{
+	width: 90%;
+	/*border: 1px solid red;*/
+	float: right;
+	overflow: hidden;
+
+}
+.header ul{
+	float: right;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.header li{
+	float: left;
+	/*border: 1px solid red;*/
+}
+.header ul a{
+	display: block;
+	/*border: 1px solid red;*/
+	color: #626262;
+	padding: 2px 45px;
+}
+.header ul li:last-child a{
+	padding-right: 0px;
+}
+.menu ul li a:hover{
+	color: rgb(0, 0, 0);
+
+
+/*-- header end --*/
